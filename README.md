@@ -23,17 +23,17 @@ This repository contains a multithreaded server implemented in C++ that can hand
    git clone https://github.com/jashan7167/multithreaded-cpp-server.git
 Compile the server:
 
-bash
+bash <br>
 Copy code
 g++ server.cpp myqueue.c -o server -lpthread
 Run the server:
 
-bash
+bash <br>
 Copy code
 ./server
 Open a new terminal and run the client script (client.rb) to send requests to the server:
 
-bash
+bash <br>
 Copy code
 ruby client.rb
 
